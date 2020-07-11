@@ -1,0 +1,19 @@
+{
+	"name": "nodejs-14-express-jest",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest --watchAll"
+	},
+	"repository": "https://github.com/kazuki0924/nodejs-14-express-jest.git",
+	"author": "Kazuki Matsuzaki <kazuki0924@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.17.1",
+		"mongoose": "^5.9.23",
+		"node-mocks-http": "^1.8.1"
+	},
+	"devDependencies": {
+		"jest": "^26.1.0"
+	}
+}
